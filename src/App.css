@@ -9,11 +9,32 @@ body{
   height: 700px;
   font-family: 'Quicksand', sans-serif;
 }
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button{
-  background-color: violet;
-  border-radius: 12px;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  border-radius: 20px;
+  height: 20px;
+  font-size: 12px;
+  padding: 15px 5px;
+  width: 200px;
   margin: 0px 5px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+button:focus {
+  outline: none;
 }
 
 .Count{
